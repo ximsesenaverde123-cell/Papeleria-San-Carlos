@@ -1,0 +1,29 @@
+// Seleccionar todos los enlaces internos
+const enlaces = document.querySelectorAll('a[href^="#"]');
+
+
+// Agregar una acción a cada enlace
+enlaces.forEach(function(enlace) {
+
+    enlace.addEventListener('click', function(evento) {
+
+        // Evitar el comportamiento predeterminado
+        evento.preventDefault();
+
+        // Obtener el destino del enlace
+        const destino = document.querySelector(
+            this.getAttribute('href')
+        );
+
+        // Desplazamiento suave hacia el tema
+        if (destino) {
+
+            destino.scrollIntoView({
+                behavior: 'smooth'
+            });
+
+        }
+
+    });
+
+});

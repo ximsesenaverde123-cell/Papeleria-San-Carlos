@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tutorial Papelería San Carlos</title>
+
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Tutorial Papelería San Carlos</h1>
+        <p>
+            Tutorial sobre el sistema de gestión de Papelería San Carlos.
+        </p>
+    </header>
+
+    <main>
+
+        <section id="indice">
+            <h2>Temas del tutorial</h2>
+
+            <ol>
+                <li>
+                    <a href="#login">Inicio de sesión</a>
+                </li>
+
+                <li>
+                    <a href="#inventario">Gestión de inventario</a>
+                </li>
+
+                <li>
+                    <a href="#ventas">Registro de ventas</a>
+                </li>
+
+                <li>
+                    <a href="#reportes">Consulta de reportes</a>
+                </li>
+
+                <li>
+                    <a href="#usuarios">Gestión de usuarios</a>
+                </li>
+            </ol>
+        </section>
+
+
+        <section id="login" class="tema">
+
+            <h2>1. Inicio de sesión</h2>
+
+            <img src="imagenes/login.png"
+                 alt="Inicio de sesión">
+
+            <p>
+                El módulo de inicio de sesión permite que los usuarios
+                autorizados ingresen al sistema de gestión de Papelería
+                San Carlos utilizando sus credenciales.
+            </p>
+
+        </section>
+
+
+        <section id="inventario" class="tema">
+
+            <h2>2. Gestión de inventario</h2>
+
+            <img src="imagenes/inventario.png"
+                 alt="Gestión de inventario">
+
+            <p>
+                El módulo de gestión de inventario permite administrar
+                los productos disponibles en Papelería San Carlos.
+            </p>
+
+        </section>
+
+
+        <section id="ventas" class="tema">
+
+            <h2>3. Registro de ventas</h2>
+
+            <img src="imagenes/ventas.png"
+                 alt="Registro de ventas">
+
+            <p>
+                El módulo de registro de ventas permite registrar las
+                compras realizadas por los clientes y controlar las
+                existencias.
+            </p>
+
+        </section>
+
+
+        <section id="reportes" class="tema">
+
+            <h2>4. Consulta de reportes</h2>
+
+            <img src="imagenes/reportes.png"
+                 alt="Consulta de reportes">
+
+            <p>
+                El módulo de reportes permite consultar información
+                importante sobre las operaciones realizadas en
+                Papelería San Carlos.
+            </p>
+
+        </section>
+
+
+        <section id="usuarios" class="tema">
+
+            <h2>5. Gestión de usuarios</h2>
+
+            <img src="imagenes/usuarios.png"
+                 alt="Gestión de usuarios">
+
+            <p>
+                El módulo de gestión de usuarios permite administrar
+                las personas autorizadas para utilizar el sistema.
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>
+            Papelería San Carlos - SENA
+        </p>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>

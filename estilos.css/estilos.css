@@ -1,0 +1,262 @@
+/* Configuración general */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f7f6;
+    color: #333333;
+    line-height: 1.6;
+}
+
+/* Encabezado */
+
+header {
+    background: linear-gradient(135deg, #0066cc, #00a651);
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header img {
+    width: 140px;
+    height: 140px;
+    object-fit: contain;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+}
+/* Menú de navegación */
+
+nav {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.10);
+}
+
+nav ol {
+    padding-left: 25px;
+}
+
+nav li {
+    margin: 10px 0;
+}
+
+nav a {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+nav a:hover {
+    color: #00a651;
+    text-decoration: underline;
+}
+
+/* Secciones de los módulos */
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.tema {
+    background-color: white;
+    margin: 30px 0;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.10);
+    border-left: 6px solid #0066cc;
+}
+
+.tema h2 {
+    color: #0066cc;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.tema h3 {
+    color: #00a651;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.tema img {
+    display: block;
+    max-width: 80%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.tema p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.tema ul,
+.tema ol {
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
+
+.tema li {
+    margin-bottom: 8px;
+}
+
+/* Conclusión */
+
+.conclusion {
+    background-color: #e8f5e9;
+    margin: 30px 0;
+    padding: 30px;
+    border-radius: 15px;
+    border-left: 6px solid #00a651;
+}
+
+.conclusion h2 {
+    color: #0066cc;
+    margin-bottom: 15px;
+    font-size: 26px;
+}
+
+.conclusion p {
+    margin-bottom: 12px;
+    font-size: 16px;
+}
+
+/* Pie de página */
+
+footer {
+    background-color: #0066cc;
+    color: white;
+    text-align: center;
+    padding: 25px 20px;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+/* Imágenes de los productos */
+.producto img {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto 15px;
+}
+
+/* ===== NUEVO ENCABEZADO PAPELERÍA SAN CARLOS ===== */
+
+header.encabezado {
+    background: #ffffff;
+    color: #17365d;
+    text-align: left;
+    padding: 20px 35px;
+    min-height: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: 2px solid #e5eaf0;
+}
+
+.marca {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo {
+    font-size: 45px;
+}
+
+.nombre-marca h1 {
+    font-size: 27px;
+    margin: 0;
+    color: #174a7e;
+}
+
+.nombre-marca h1 span {
+    color: #36a852;
+}
+
+.nombre-marca p {
+    margin-top: 5px;
+    color: #555555;
+}
+
+.usuario {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.rol {
+    color: #36a852;
+    font-weight: bold;
+}
+
+.salir {
+    background: #d9534f;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.menu {
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 15px;
+    border-bottom: 1px solid #dce3eb;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #17365d;
+    font-weight: bold;
+    padding: 13px 16px;
+    border-radius: 6px;
+}
+
+.menu a:hover,
+.menu a.activo {
+    background: #d9f5dc;
+    color: #174a7e;
+}
+
+@media (max-width: 700px) {
+    header.encabezado {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .usuario {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
